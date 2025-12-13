@@ -29,6 +29,15 @@ const journalEntries = [
     location: "Nature Reserve",
     highlights: ["Nature walk", "Wildlife observation", "Conservation workshop"],
   },
+  {
+    day: "Day 4",
+    date: "Reflection & Farewell",
+    title: "Concluding Our Journey",
+    description:
+      "Our final day was filled with reflection and gratitude. We shared our favorite memories, participated in closing ceremonies, and said our farewells with newfound friendships and knowledge.",
+    location: "Conference Center",
+    highlights: ["Reflection session", "Certificate ceremony", "Group photo session"],
+  },
 ];
 
 const JournalSection = () => {
