@@ -1,19 +1,19 @@
 import { Award } from "lucide-react";
-import certificate1 from "@/assets/certificate-1.jpg";
-import certificate2 from "@/assets/certificate-2.jpg";
+import certificate1 from "@/assets/CERT1.jpg";
+import certificate2 from "@/assets/CERT2.jpg";
 
 const certificates = [
   {
     src: certificate1,
-    title: "Certificate of Achievement",
+    title: "Certificate of Completion",
     issuer: "WATT Educational Program",
-    date: "2024",
+    date: "2025",
   },
   {
     src: certificate2,
-    title: "Certificate of Participation",
+    title: "Certificate of Appearance",
     issuer: "Educational Tour Program",
-    date: "2024",
+    date: "2025",
   },
 ];
 
@@ -27,7 +27,7 @@ const CertificatesSection = () => {
             <Award className="w-8 h-8 text-accent" />
           </div>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-4">
-            Certificates & Awards
+            Certificates
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Recognition and achievements earned through participation in educational

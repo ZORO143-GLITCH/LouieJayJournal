@@ -1,17 +1,25 @@
 import { useState } from "react";
 import { BookOpen, FileText, ChevronLeft, ChevronRight } from "lucide-react";
-import journalScan from "@/assets/journal-scan.jpg";
+import journalScan1 from "@/assets/J1.jpg";
+import journalScan2 from "@/assets/J2.jpg";
+import journalScan3 from "@/assets/J3.jpg";
+import journalScan4 from "@/assets/J4.jpg";
+import journalScan5 from "@/assets/J5.jpg";
+import journalScan6 from "@/assets/J6.jpg";
+import journalScan7 from "@/assets/J7.jpg";
+import journalScan8 from "@/assets/J8.jpg";
+import journalScan9 from "@/assets/Permit.jpg";
 
 const journalPages = [
-  { page: 1, title: "Cover Page", description: "WATT Educational Tour Journal - Official Cover" },
-  { page: 2, title: "Introduction", description: "Welcome message and tour objectives" },
-  { page: 3, title: "Day 1 - Departure", description: "Documenting our journey's beginning" },
-  { page: 4, title: "Day 1 - Activities", description: "First day activities and experiences" },
-  { page: 5, title: "Day 2 - Cultural Sites", description: "Exploring historical landmarks" },
-  { page: 6, title: "Day 2 - Reflections", description: "Personal reflections and learnings" },
-  { page: 7, title: "Day 3 - Nature Tour", description: "Environmental education experiences" },
-  { page: 8, title: "Day 4 - Farewell", description: "Closing ceremonies and reflections" },
-  { page: 9, title: "Acknowledgments", description: "Thank you notes and signatures" },
+  { page: 1, title: "Cover Page", description: "WATT Educational Tour Journal - Official Cover", image: journalScan1 },
+  { page: 2, title: "Introduction", description: "Welcome message and tour objectives", image: journalScan2 },
+  { page: 3, title: "Day 1 - Departure", description: "Documenting our journey's beginning", image: journalScan3 },
+  { page: 4, title: "Day 1 - Activities", description: "First day activities and experiences", image: journalScan4 },
+  { page: 5, title: "Day 2 - Cultural Sites", description: "Exploring historical landmarks", image: journalScan5 },
+  { page: 6, title: "Day 2 - Reflections", description: "Personal reflections and learnings", image: journalScan6 },
+  { page: 7, title: "Day 3 - Nature Tour", description: "Environmental education experiences", image: journalScan7 },
+  { page: 8, title: "Day 4 - Farewell", description: "Closing ceremonies and reflections", image: journalScan8 },
+  { page: 9, title: "Acknowledgments", description: "Thank you notes and signatures", image: journalScan9 },
 ];
 
 const ScannedJournalSection = () => {
@@ -29,7 +37,7 @@ const ScannedJournalSection = () => {
             <FileText className="w-8 h-8 text-accent" />
           </div>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-primary mb-4">
-            Printed Journal
+            Printed Journal & Exam Permit
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Scanned copy of the official printed journal provided by WATT, documenting
@@ -72,14 +80,14 @@ const ScannedJournalSection = () => {
                   <button
                     key={page.page}
                     onClick={() => setCurrentPage(index)}
-                    className={`flex-shrink-0 w-16 h-20 rounded-lg border-2 transition-all duration-200 overflow-hidden ${
+                    className={`flex-shrink-0 w-16 h-20 rounded-lg border-2 transition-all duration-200 overflow-hidden relative ${
                       currentPage === index
                         ? "border-accent shadow-soft scale-105"
                         : "border-border hover:border-accent/50"
                     }`}
                   >
                     <img
-                      src={journalScan}
+                      src={page.image}
                       alt={`Page ${page.page}`}
                       className="w-full h-full object-cover opacity-80"
                     />
@@ -122,7 +130,7 @@ const ScannedJournalSection = () => {
                 {/* Journal Image */}
                 <div className="relative rounded-xl overflow-hidden shadow-card">
                   <img
-                    src={journalScan}
+                    src={journalPages[currentPage].image}
                     alt={journalPages[currentPage].title}
                     className="w-full h-auto"
                   />
@@ -177,7 +185,7 @@ const ScannedJournalSection = () => {
                     {journalPages.length} Pages
                   </span>
                   <span className="px-3 py-1 bg-card rounded-lg text-sm text-muted-foreground border border-border">
-                    Educational Tour 2024
+                    Educational Tour 2025
                   </span>
                 </div>
               </div>

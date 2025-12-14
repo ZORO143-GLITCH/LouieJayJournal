@@ -1,4 +1,4 @@
-import profileImage from "@/assets/profile-placeholder.png";
+import profileImage from "@/assets/PROFILENAKO.jpg";
 
 const HeroSection = () => {
   return (

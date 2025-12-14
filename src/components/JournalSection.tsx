@@ -4,39 +4,39 @@ import tourHero from "@/assets/tour-hero.jpg";
 const journalEntries = [
   {
     day: "Day 1",
-    date: "Educational Tour Start",
+    date: "NOV 12 WED",
     title: "Beginning of Our Adventure",
     description:
-      "We embarked on our educational journey, filled with excitement and anticipation. The morning started early with registration and orientation about our upcoming destinations.",
-    location: "Assembly Point",
-    highlights: ["Group orientation", "Safety briefing", "Team building activities"],
+      "We officially started our educational tour by traveling from Davao to Cebu. After arriving, we explored Cebu’s rich history, enjoyed a buffet lunch, and visited an IT center. The day ended with hotel check-in and free time to rest and bond with classmates.",
+    location: "Cebu City",
+    highlights: ["Flight from Davao to Cebu", "Cebu Heritage Tour", "IT industry visit", "Hotel check-in and free time"],
   },
   {
     day: "Day 2",
-    date: "Cultural Immersion",
-    title: "Exploring Historical Sites",
+    date: "NOV 13 THU",
+    title: "Learning from the Industry",
     description:
-      "Visited significant historical landmarks and learned about our rich cultural heritage. The tour guide shared fascinating stories about the history and significance of each location.",
-    location: "Historical District",
-    highlights: ["Museum visit", "Heritage walking tour", "Local cuisine experience"],
+      "This day focused on learning through company visits. We visited different IT companies where we gained insights into real-world technology work. After a full day of learning, we relaxed back at the hotel and enjoyed our free time.",
+    location: "Cebu City",
+    highlights: ["IT company visits", "Exposure to real work environments", "Buffet meals", "Rest and relaxation at the hotel"],
   },
   {
     day: "Day 3",
-    date: "Nature & Learning",
-    title: "Environmental Education",
+    date: "NOV 14 FRI",
+    title: "From City to Island",
     description:
-      "Explored natural wonders and participated in environmental workshops. We learned about conservation efforts and the importance of preserving our natural resources.",
-    location: "Nature Reserve",
-    highlights: ["Nature walk", "Wildlife observation", "Conservation workshop"],
+      "We continued our company visits in the morning and enjoyed lunch together before traveling to Bohol. The sea journey was exciting, and upon arrival, we checked in at our hotel in Panglao. The night was free to explore and relax.",
+    location: "Cebu City → Bohol (Panglao)",
+    highlights: ["Final IT company visits in Cebu", "Ferry travel to Tagbilaran", "Arrival in Panglao", "Hotel check-in and dinner"],
   },
   {
     day: "Day 4",
-    date: "Reflection & Farewell",
-    title: "Concluding Our Journey",
+    date: "NOV 15 SAT",
+    title: "Culture, Nature, and Farewell",
     description:
-      "Our final day was filled with reflection and gratitude. We shared our favorite memories, participated in closing ceremonies, and said our farewells with newfound friendships and knowledge.",
-    location: "Conference Center",
-    highlights: ["Reflection session", "Certificate ceremony", "Group photo session"],
+      "Our last day was filled with sightseeing around Bohol. We visited famous tourist spots and enjoyed a river cruise lunch. After dinner, we traveled back to Davao, ending our educational tour with unforgettable memories.",
+    location: "Bohol → Davao",
+    highlights: ["Bohol countryside tour", "Loboc River cruise", "Famous landmarks and souvenir shopping", "Flight back to Davao"],
   },
 ];
 
