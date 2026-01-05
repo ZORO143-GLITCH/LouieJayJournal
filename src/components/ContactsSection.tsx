@@ -13,7 +13,7 @@ const ContactsSection = () => {
           </div>
           <div className="flex flex-col items-center gap-2 sm:flex-row sm:justify-center">
             <span className="font-semibold">Phone:</span>
-            <a href="tel:09107097031" className="text-primary underline hover:text-primary/80">+63 912 345 6789</a>
+            <a href="tel:09107097031" className="text-primary underline hover:text-primary/80">09107097031</a>
           </div>
           <div className="flex flex-col items-center gap-2 sm:flex-row sm:justify-center">
             <span className="font-semibold">Facebook:</span>
