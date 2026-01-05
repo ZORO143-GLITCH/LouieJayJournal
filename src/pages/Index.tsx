@@ -17,7 +17,7 @@ const Index = () => {
         <div className="container mx-auto px-6 text-left max-w-2xl rounded-xl shadow-lg border border-border bg-white/80">
           <h2 className="text-3xl font-bold mb-4 text-primary">About Me</h2>
           <p className="text-muted-foreground text-lg mb-6">
-            I am currently enrolled in Holy Cross of Davao College as a 3rd-year Bachelor of Science in Information Technology (BSIT), and a deep fascination with computing and digital innovation drives me. A passion for technology, software development, and systems analysis fuels my academic journey. Beyond my coursework, I actively engage with the gaming industry's technological landscape, which continually sharpens my problem-solving skills and understanding of complex digital environments.
+            I am a 3rd-year BSIT student at Holy Cross of Davao College with a strong interest in technology and digital innovation. I am passionate about software development and systems analysis, and I enjoy learning how digital systems work. I also explore the gaming industry, which helps improve my problem-solving skills and understanding of complex digital environments.
           </p>
           <div className="mb-4">
             <span className="font-semibold text-primary">Education:</span> 3rd Year BSIT Student at Holy Cross of Davao College
